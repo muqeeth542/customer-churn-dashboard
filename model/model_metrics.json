@@ -1,0 +1,93 @@
+{
+  "logistic_regression": {
+    "model": "Logistic Regression",
+    "accuracy": 0.8197,
+    "precision": 0.6907,
+    "recall": 0.8665,
+    "f1": 0.7687,
+    "roc_auc": 0.8996,
+    "confusion_matrix": [
+      [
+        733,
+        189
+      ],
+      [
+        65,
+        422
+      ]
+    ],
+    "classification_report": {
+      "No Churn": {
+        "precision": 0.918546365914787,
+        "recall": 0.7950108459869848,
+        "f1-score": 0.8523255813953489,
+        "support": 922.0
+      },
+      "Churn": {
+        "precision": 0.690671031096563,
+        "recall": 0.86652977412731,
+        "f1-score": 0.7686703096539163,
+        "support": 487.0
+      },
+      "accuracy": 0.8197303051809794,
+      "macro avg": {
+        "precision": 0.8046086985056751,
+        "recall": 0.8307703100571474,
+        "f1-score": 0.8104979455246326,
+        "support": 1409.0
+      },
+      "weighted avg": {
+        "precision": 0.8397846284722922,
+        "recall": 0.8197303051809794,
+        "f1-score": 0.8234113746259538,
+        "support": 1409.0
+      }
+    }
+  },
+  "xgboost": {
+    "model": "XGBoost",
+    "accuracy": 0.819,
+    "precision": 0.6933,
+    "recall": 0.8542,
+    "f1": 0.7654,
+    "roc_auc": 0.8932,
+    "confusion_matrix": [
+      [
+        738,
+        184
+      ],
+      [
+        71,
+        416
+      ]
+    ],
+    "classification_report": {
+      "No Churn": {
+        "precision": 0.9122373300370828,
+        "recall": 0.8004338394793926,
+        "f1-score": 0.8526863084922011,
+        "support": 922.0
+      },
+      "Churn": {
+        "precision": 0.6933333333333334,
+        "recall": 0.8542094455852156,
+        "f1-score": 0.765409383624655,
+        "support": 487.0
+      },
+      "accuracy": 0.8190205819730305,
+      "macro avg": {
+        "precision": 0.802785331685208,
+        "recall": 0.8273216425323041,
+        "f1-score": 0.809047846058428,
+        "support": 1409.0
+      },
+      "weighted avg": {
+        "precision": 0.836576402858427,
+        "recall": 0.8190205819730305,
+        "f1-score": 0.8225203309120059,
+        "support": 1409.0
+      }
+    }
+  },
+  "best_model": "logistic_regression"
+}
